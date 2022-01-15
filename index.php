@@ -139,27 +139,32 @@
 
           <section id="Estudios">
             <h2>Estudios</h2>
-            <div class="row">
               <div class="containerCard">
                 <div class="cardd">
-                  <h3 class="card-title">Tecnico en Electronica</h3>  
-                  <p class="card-text">Curso realizado en linea</p> <br>
+                  <h3 class="card-title">Administrador de la nube</h3>  
+                  <p class="card-text">Curso realizado en la plataforma aprende.org</p> <br>
                   <a href="#modal1" id="show-modal">Certificado</a>
                 </div>
 
                 <div class="cardd">
-                    <h4>Comida</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
-                    <a href="#">Leer más</a>
+                  <h3 class="card-title">Asesor de servicios de infraestructura en la nube</h3>  
+                  <p class="card-text">Curso realizado en la plataforma aprende.org</p> <br>
+                  <a href="#modal2" id="show-modal">Certificado</a>
                 </div>
 
                 <div class="cardd">
-                    <h4>Tecnología</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
-                    <a href="#">Leer más</a>
+                  <h3 class="card-title">Desarrollador de aplicaciones en la nube</h3>  
+                  <p class="card-text">Curso realizado en la plataforma aprende.org</p> <br>
+                  <a href="#modal3" id="show-modal">Certificado</a>
                 </div>
+
+                <div class="cardd">
+                  <h3 class="card-title">Tecnico en Electronica</h3>  
+                  <p class="card-text">Curso realizado en la plataforma aprende.org</p> <br>
+                  <a href="#modal4" id="show-modal">Certificado</a>
+                </div>
+
               </div>
-            </div>
           </section>
 
           <section id="Contacto" class="infoContacto">
@@ -200,11 +205,55 @@
                   <h2>Tecnico en Electronica</h2>
                 </header>
                 <article>
-                  <object class="PDFdoc" width="100%" height="350px" type="application/pdf" data="PDF/Tecnico en Electronica.pdf"></object><br>
+                  <object class="PDFdoc" width="100%" height="350px" type="application/pdf" data="PDF/Administrador de la nube.pdf"></object><br>
+                  <!--<a class="btnverf" href="https://capacitateparaelempleo.org/verifica/q9p1ojstg/" target="_blank">Verfificar</a>-->
                 </article>
               </div>
               <!--<a href="#" class="btn-close-modal"></a>-->
             </aside>
+
+            <aside id="modal2" class="modal">
+              <div class="content-modal">
+                <header>
+                  <a href="#Servicios" class="close-modal">X</a>
+                  <h2>Asesor de servicios de infraestructura en la nube</h2>
+                </header>
+                <article>
+                  <object class="PDFdoc" width="100%" height="350px" type="application/pdf" data="PDF/Asesor de servicios de infraestructura en la nube.pdf"></object><br>
+                  <!--<a class="btnverf" href="https://capacitateparaelempleo.org/verifica/q9p1ojstg/" target="_blank">Verfificar</a>-->
+                </article>
+              </div>
+              <!--<a href="#" class="btn-close-modal"></a>-->
+            </aside>
+
+            <aside id="modal3" class="modal">
+              <div class="content-modal">
+                <header>
+                  <a href="#Servicios" class="close-modal">X</a>
+                  <h2>Desarrollador de aplicaciones en la nube</h2>
+                </header>
+                <article>
+                  <object class="PDFdoc" width="100%" height="350px" type="application/pdf" data="PDF/Desarrollador de aplicaciones en la nube.pdf"></object><br>
+                  <!--<a class="btnverf" href="https://capacitateparaelempleo.org/verifica/q9p1ojstg/" target="_blank">Verfificar</a>-->
+                </article>
+              </div>
+              <!--<a href="#" class="btn-close-modal"></a>-->
+            </aside>
+
+            <aside id="modal4" class="modal">
+              <div class="content-modal">
+                <header>
+                  <a href="#Servicios" class="close-modal">X</a>
+                  <h2>Tecnico en Electronica</h2>
+                </header>
+                <article>
+                  <object class="PDFdoc" width="100%" height="350px" type="application/pdf" data="PDF/Administrador de la nube.pdf"></object><br>
+                  <!--<a class="btnverf" href="https://capacitateparaelempleo.org/verifica/q9p1ojstg/" target="_blank">Verfificar</a>-->
+                </article>
+              </div>
+              <!--<a href="#" class="btn-close-modal"></a>-->
+            </aside>
+
           </section><!--<iframe src="PDF/Administrador de la nube.pdf"style="width:100%; height:700px;" frameborder="0"></iframe>-->
 
 

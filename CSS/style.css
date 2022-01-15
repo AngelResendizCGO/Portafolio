@@ -213,8 +213,8 @@ h3 {
 /***************CARDS*****************/
 .containerCard{
     width: 100%;
-    max-width: 1200px;
-    height: 430px;
+    max-width: 120rem;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -223,11 +223,11 @@ h3 {
 
 .containerCard .cardd{
     width: 330px;
-    height: 250px;
+    height: 280px;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    margin: 20px;
+    margin: 15px;
     text-align: center;
     transition: all 0.25s;
 }
@@ -263,7 +263,7 @@ h3 {
 #show-modal{
     text-align: center;
     background: var(--primario);
-    padding: 15px 15px;
+    padding: 4px 10px;
     color: var(--blanco);
     font-weight: 100;
     font-size: 1.5em;
@@ -326,6 +326,21 @@ h3 {
     font-weight: bold;
     font-size: 1.5em;
     text-decoration: none;
+}
+
+.btnverf{
+    background-color: var(--primario);
+    color: aliceblue;
+    padding: auto;
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-decoration: unset;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    width: 80%;
+    text-align: center;
+    border: none;
 }
 
 .modal a:hover{

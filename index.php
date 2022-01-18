@@ -175,19 +175,19 @@
                 <div class="contenedor-campos">
                   <div class="campo">
                     <label for="">Nombre</label>
-                    <input type="text" name="nombre" id="nombre" placeholder="Tu Nombre"/>
+                    <input type="text" name="nombre" required id="nombre" placeholder="Tu Nombre"/>
                   </div>
                   <div class="campo">
                     <label for="">Telefono</label>
-                    <input type="tel" name="telefono" id="telefono" placeholder="Tu Telefono"/>
+                    <input type="tel" name="telefono" id="telefono" maxlength="10" pattern="[0-9]{10}" required placeholder="Tu Telefono"/>
                   </div>
                   <div class="campo">
                     <label for="">Correo</label>
-                    <input type="email" name="email" placeholder="ejemplo@ejemplo.com" id="email">
+                    <input type="email" name="email" required placeholder="ejemplo@ejemplo.com" id="email">
                   </div>
                   <div class="campo">
                     <label for="">Mensaje</label>
-                    <textarea class=".txarea" name="" id="" cols="30" rows="10"></textarea>
+                    <textarea class="txarea" name="" id="" cols="30" rows="10"></textarea>
                   </div>
                 </div><!-- contenedor-campos -->
                 <div class="divboton">

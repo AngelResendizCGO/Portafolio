@@ -83,6 +83,7 @@ h3 {
 .navegacion a:hover {
     background-color: var(--primario);
     color: var(--oscuro);
+    border-radius: 0.5rem;
 }
 .navegacion a:last-of-type {
     margin-bottom:0;
@@ -154,6 +155,7 @@ h3 {
     background-color: var(--fondo);
     width: min(60rem, 100%);/* Utilizar el valor mas pequeño */
     margin: 0 auto;
+    border-radius: 1rem;
 }
 
 .formulario fieldset{

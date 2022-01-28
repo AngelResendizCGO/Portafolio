@@ -27,6 +27,7 @@ require("regisContact.php");
           <a href="#Servicios">Servicios</a>
           <a href="#Estudios">Estudios</a>
           <a href="#Contacto">Contacto</a>
+          <a href="sitios.php">Proyectos</a>
         </nav>
       </div>      
 

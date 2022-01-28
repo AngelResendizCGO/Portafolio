@@ -1,3 +1,7 @@
+<?php
+require("regisContact.php");
+?>
+
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -179,7 +183,7 @@
                   </div>
                   <div class="campo">
                     <label for="">Telefono</label>
-                    <input type="tel" name="telefono" id="telefono" maxlength="10" pattern="[0-9]{10}" required placeholder="Tu Telefono"/>
+                    <input type="tel" name="telefono" id="telefono" maxlength="10" pattern="[0-9]{10}" required placeholder="Tu Telefono" title="Solo se permiten numeros"/>
                   </div>
                   <div class="campo">
                     <label for="">Correo</label>

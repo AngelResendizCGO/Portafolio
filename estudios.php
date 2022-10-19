@@ -24,15 +24,15 @@ require("regisContact.php");
       <div class="nav-bg">
         <nav class="navegacion contenedor">
           <a href="index.php">Sobre Mi</a>
-          <a href="index.php#Servicios">Servicios</a>
-          <a href="index.php#Estudios">Estudios</a>
-          <!--<a href="index.php#Contacto">Contacto</a>-->
+          <a href="#Servicios">Servicios</a>
+          <a href="#Estudios">Estudios</a>
+          <a href="index.php#Contacto">Contacto</a>
         </nav>
       </div>
 
       <section>
         <div class="contenedor sombra">
-          <h2>Proyectos Ejemplo</h2>
+          <h2>Proyectos</h2>
           <div class="proyectos">
             <a class="boton" href="Sitios/BlogCafe/blogdecafe_inicio/cafe.html">Blog de Cafe</a>
           </div>

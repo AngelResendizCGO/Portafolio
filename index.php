@@ -11,14 +11,14 @@ require("regisContact.php");
         <link rel="stylesheet" href="CSS/normalize.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="icon" href="Imagenes/svg/code-white.svg">
-        <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet"><!--Eliminar para mejorar el performance-->
         <link rel="preload" href="CSS/style.css" as="style">
         <link rel="stylesheet" href="CSS/style.css">
     </head>
 
     <body>
       <header>
-        <h1 class="titulo">Angel Resendiz <span class="spantitulo">Frelancer</span></h1>        
+        <h1 class="titulo">Angel Resendiz <span class="spantitulo"> Frelancer</span></h1>        
       </header>
 
       <div class="nav-bg">
@@ -26,7 +26,7 @@ require("regisContact.php");
           <a href="#Introduccion">Sobre Mi</a>
           <a href="#Servicios">Servicios</a>
           <a href="#Estudios">Estudios</a>
-          <a href="#Contacto">Contacto</a>
+          <a hidden="true" href="#Contacto">Contacto</a>
           <a href="sitios.php">Proyectos</a>
         </nav>
       </div>      
@@ -57,7 +57,7 @@ require("regisContact.php");
             </div>
           </section>
 
-          <section id="Estudios">
+          <section id="">
             <div>
             </div>
           </section>
@@ -144,7 +144,28 @@ require("regisContact.php");
 
           <section id="Estudios">
             <h2>Estudios</h2>
+            <p>Mi formacion academica como Ingeniero fue realizada en el Instituto Tecnologico Superior De Huichapan del 2015 al 2019, duarante mi instancia en el Tecnologico 
+              realice distintos proyectos que me ayudaron a adquirir habilidades para el desarrollo de software ademas de que me di cuenta que me gusta mucho de programar, de igual manera
+              he realizado diversos cursos online en distintas plataformas como Udemy, La Fundacion Slim.
+            </p>
+            <p>
+              Desde mi formacion en Cobaq plantel 12 supe que me queria dedicar al desarrollo de software, lo que me hizo optar por elegir la carrera la cual ya soy egresado la cual es Ingeniero en Sistemas Computacionales,
+              hoy en dia estoy en busca de una empresa que deposite la confianza en mi para que le sea util en el desarrollo de sus proyectos, tal vez no tendre mucha experiencia pero si les aseguro que me esforzaré para 
+              cumplir con las tareas que me sean encomendadas, soy una persona que en ocaciones se puede frustrar en algunas situaciones como el no encontrar el problema a la hora de estar desarrolando el software,
+              pero si me he dado cuenta que se me facilita enfocarme mas para llegar a la solucion del problema.
+            </p>
+
+            <!--<h2>Skills</h2>-->
+            
+
+            <h2>Cursos</h2>
               <div class="containerCard">
+                <div class="cardd">
+                  <h3 class="card-title">Introduccion a IOT</h3>  
+                  <p class="card-text">Curso realizado en la plataforma Networking Academy de Cisco</p> <br>
+                  <a href="#modal5" id="show-modal">Certificado</a>
+                </div>
+
                 <div class="cardd">
                   <h3 class="card-title">Administrador de la nube</h3>  
                   <p class="card-text">Curso realizado en la plataforma aprende.org</p> <br>
@@ -172,7 +193,7 @@ require("regisContact.php");
               </div>
           </section>
 
-          <section id="Contacto" class="infoContacto">
+          <section id="Contacto" hidden="true" class="infoContacto">
             <h2>Contacto</h2>
             <form action="" class="formulario">
               <fieldset>
@@ -203,10 +224,24 @@ require("regisContact.php");
           </section>
 
           <section class="Modals">
+            <aside id="modal5" class="modal">
+              <div class="content-modal">
+                <header>
+                  <a href="#Estudios" class="close-modal">X</a>
+                  <h2>Introduccion a IOT</h2>
+                </header>
+                <article>
+                  <object class="PDFdoc" width="100%" height="350px" type="application/pdf" data="PDF/IoT.pdf"></object><br>
+                  <!--<a class="btnverf" href="https://capacitateparaelempleo.org/verifica/q9p1ojstg/" target="_blank">Verfificar</a>-->
+                </article>
+              </div>
+              <!--<a href="#" class="btn-close-modal"></a>-->
+            </aside>
+
             <aside id="modal1" class="modal">
               <div class="content-modal">
                 <header>
-                  <a href="#Servicios" class="close-modal">X</a>
+                  <a href="#Estudios" class="close-modal">X</a>
                   <h2>Tecnico en Electronica</h2>
                 </header>
                 <article>
@@ -220,7 +255,7 @@ require("regisContact.php");
             <aside id="modal2" class="modal">
               <div class="content-modal">
                 <header>
-                  <a href="#Servicios" class="close-modal">X</a>
+                  <a href="#Estudios" class="close-modal">X</a>
                   <h2>Asesor de servicios de infraestructura en la nube</h2>
                 </header>
                 <article>
@@ -234,7 +269,7 @@ require("regisContact.php");
             <aside id="modal3" class="modal">
               <div class="content-modal">
                 <header>
-                  <a href="#Servicios" class="close-modal">X</a>
+                  <a href="#Estudios" class="close-modal">X</a>
                   <h2>Desarrollador de aplicaciones en la nube</h2>
                 </header>
                 <article>
@@ -248,7 +283,7 @@ require("regisContact.php");
             <aside id="modal4" class="modal">
               <div class="content-modal">
                 <header>
-                  <a href="#Servicios" class="close-modal">X</a>
+                  <a href="#Estudios" class="close-modal">X</a>
                   <h2>Tecnico en Electronica</h2>
                 </header>
                 <article>
